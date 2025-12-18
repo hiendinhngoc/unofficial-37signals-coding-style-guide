@@ -29,41 +29,47 @@ These are not Fizzy-specific implementation details. We deliberately skipped bus
 ### Frontend
 - [Stimulus](stimulus.md) - Reusable controller catalog with copy-paste code
 - [CSS](css.md) - Native CSS, cascade layers, OKLCH colors, modern features
-- [Hotwire Patterns](hotwire-patterns.md) - Turbo Frames/Streams, morphing, drag & drop
+- [Hotwire](hotwire.md) - Turbo Frames/Streams, morphing, drag & drop
 - [Accessibility](accessibility.md) - ARIA patterns, keyboard navigation, screen readers
 - [Mobile](mobile.md) - Responsive CSS, safe area insets, touch optimization
 
 ### Backend
 - [Authentication](authentication.md) - Passwordless magic links without Devise
 - [Multi-Tenancy](multi-tenancy.md) - Path-based tenancy, middleware, ActiveJob extensions
-- [Database Patterns](database-patterns.md) - UUIDs, state as records, database-backed everything
+- [Database](database.md) - UUIDs, state as records, database-backed everything
 - [Background Jobs](background-jobs.md) - Solid Queue patterns, tenant preservation, continuable jobs
-- [Caching Patterns](caching-patterns.md) - HTTP caching, fragment caching, invalidation
-- [Performance Patterns](performance-patterns.md) - Preloading, N+1 prevention, memoization
+- [Caching](caching.md) - HTTP caching, fragment caching, invalidation
+- [Performance](performance.md) - Preloading, N+1 prevention, memoization
 
-### Features
+### Real-time & Communication
 - [ActionCable](actioncable.md) - Multi-tenant WebSockets, broadcast scoping, Solid Cable
 - [Notifications](notifications.md) - Time window bundling, user preferences, real-time
+- [Email](email.md) - Multi-tenant mailers, timezone handling
+
+### Features
 - [Webhooks](webhooks.md) - SSRF protection, delinquency tracking, state machines
 - [Workflows](workflows.md) - Event-driven state, undoable commands
-- [Watching Patterns](watching-patterns.md) - Subscription patterns, toggle UI
-- [Email](email.md) - Multi-tenant mailers, timezone handling
+- [Watching](watching.md) - Subscription patterns, toggle UI
 - [Filtering](filtering.md) - Filter objects, URL-based state
 - [AI/LLM Integration](ai-llm.md) - Command pattern, cost tracking, tool patterns
+
+### Rails Components
+- [Active Storage](active-storage.md) - Attachment patterns, variants
+- [Action Text](action-text.md) - Sanitizer config, remote images
 
 ### Infrastructure & Testing
 - [Security Checklist](security-checklist.md) - XSS, CSRF, SSRF, rate limiting, authorization
 - [Testing](testing.md) - Minitest, fixtures over factories, integration tests
 - [Configuration](configuration.md) - Environment config, Kamal deployment
 - [Observability](observability.md) - Structured logging, Yabeda metrics
-- [Active Storage](active-storage.md) - Attachment patterns, variants
-- [Action Text](action-text.md) - Sanitizer config, remote images
 
-### Philosophy & Process
+### Philosophy
 - [Development Philosophy](development-philosophy.md) - Ship/Validate/Refine, vanilla Rails, DHH's review patterns
 - [What They Avoid](what-they-avoid.md) - Gems and patterns 37signals deliberately doesn't use
-- [Jason Fried's Patterns](jason-fried-patterns.md) - Product-oriented development, perceived performance
-- [Jorge Manrubia's Patterns](jorge-manrubia-patterns.md) - Code review style, architecture decisions
+
+### Contributors
+- [Jason Fried](jason-fried.md) - Product-oriented development, perceived performance
+- [Jorge Manrubia](jorge-manrubia.md) - Code review style, architecture decisions
 
 ---
 
